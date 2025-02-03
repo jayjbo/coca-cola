@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            &nbsp; &nbsp; &nbsp;
+            <ul>
+                <li><img src="./IMG-20241028-WA0009.jpg" alt="Logo Coca-Cola"></li>
+            </ul>
+            <a href="../index.html"><strong>Sair</strong></a>
+        </nav>
+    </header>
+    <br><br><br>
+
+    <main id="cadastro">
+        <h1>Registre-se</h1>
+        <h2>Tudo num só lugar</h2>
+        <p>
+            Com sua conta você acessa todas as marcas da The Coca-Cola Company.
+        </p>
+        <form id="meuFormulario">
+            <div id="texto">
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome" name="nome" required>
+                <br> <br>
+                <label for="email">E-mail:</label> <br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="data">Data de nascimento: </label> <br>
+                <input type="date" name="data" id="data" required> 
+                <br><br>
+                <label for="cpf">CPF: </label> <br>
+                <input type="number" name="cpf" id="cpf" required>
+            </div>
+            <br>
+
+            <input type="checkbox" name="termosUso" id="termosUso" checked>
+            <label for="termosUso">Li e concordo com os <a href="https://www.coca-cola.com/br/pt/legal/terms-of-service?_gl=1*1gx8r94*_gcl_au*NTc4NzI3NDM0LjE3MzAxNTI2MDk.*_ga*MTUxMTA0MDU4My4xNzMwMTUzMzIz*_ga_K5BZDZTQ0M*MTczMDE1MzMyMi4xLjEuMTczMDE1NDc0OS42MC4wLjA.">Termos de uso</a> e com a <a href="https://www.coca-cola.com/br/pt/legal/privacy-policy?_gl=1*1641fo3*_gcl_au*NTc4NzI3NDM0LjE3MzAxNTI2MDk.*_ga*MTUxMTA0MDU4My4xNzMwMTUzMzIz*_ga_K5BZDZTQ0M*MTczMDE1MzMyMi4xLjEuMTczMDE1NTIyNC41MC4wLjA.">Política de privacidade da Coca-Cola.</a>*</label>
+            <br><br>
+
+            <button  type="submit" >Salvar</button>
+
+        </form>
+    </main>
+
+    <table id="tabelaDados">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Data</th>
+                <th>CPF</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+       </tbody>
+    </table>
+    
+
+
+</body>
+</html>

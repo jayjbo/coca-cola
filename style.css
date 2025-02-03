@@ -1,0 +1,241 @@
+html{ 
+  font-family: sans-serif;
+}
+
+/* menu */
+nav.menu{
+    background-color: #111;
+    display: flex;
+    align-items: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    place-items: center;
+    right: 0px;
+    bottom: 90%;
+
+}
+nav a:last-child{margin-left: auto; }
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 35px
+}
+
+.menu a:hover{
+    background-color: #1f1f1f;
+    border-radius: 9%;
+}
+
+nav.shrink, a.shrink{
+    padding: 8px 20px;
+}
+/* logo coca */
+img.coca{
+    width: 80px;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    img {
+      width: 90px;
+      height: auto;
+    }
+  }
+  /* fim menu */
+
+  body {
+    background-color: #f1f1f1;
+  }
+
+  img.imagem{
+      width: 800px;
+      height: 500px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 2cm;
+  }
+
+  #Caravana{
+    background-color: #000000;
+    padding: 5%;
+  }
+
+  img.caravana{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 2cm;
+}
+#caravanatexto {
+  color: #fff;
+}
+
+img.atHomeimagem{
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 2cm;
+}
+
+  h1 {
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50;
+    margin-bottom: auto;
+    margin-left: 50;
+    margin-right: auto;
+  }
+  h2 {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50;
+    margin-bottom: auto;
+    margin-left: 50;
+    margin-right: auto;
+  }
+
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.produto {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.produto img {
+  max-width: 100%;
+}
+
+button {
+  background-color: #FF0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+footer {
+  background-color: #e52439; 
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+}
+footer img{ margin: 5px; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+.container a {
+  color: #fff;
+    text-decoration: none;
+    padding: 20px 35px;
+}
+
+.container a:hover{
+  background-color: #ff2b43;
+  border-radius: 9%;
+}
+
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* modal  */
+
+dialog{
+  width: 40%;
+  min-width: 300px;
+  padding: 20px;
+  padding-top: 0px;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+dialog h1 {
+  color: #333;
+  text-align: center;
+  margin: 30px;
+  padding: 0;
+}
+
+#login input, select, textarea {
+  width: 90%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  
+}
+
+#login label{
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+}
+
+#login button {
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+}
+
+#login button:hover { background-color: #ff2b43; }
+
+#login button[type="button"]{ background-color: #000000; }
+#login button[type="button"]:hover{ background-color: #1d1d1d; }
+
+dialog button{ margin-top: 20px;}
+
+dialog::backdrop{
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+dialog p.erro{
+  padding: 10px;
+  background-color: rgb(255, 190, 190);
+  color: rgb(86, 2, 2);
+  text-align: center;
+}
