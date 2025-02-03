@@ -1,4 +1,4 @@
-#Coca-Cola - Projeto Acadêmico
+# Coca-Cola - Projeto Acadêmico
 
 Este é um projeto acadêmico desenvolvido com o objetivo de aprender e praticar HTML, CSS e JavaScript, utilizando um tema inspirado na Coca-Cola.
 
